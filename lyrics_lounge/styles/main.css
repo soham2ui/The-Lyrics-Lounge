@@ -1,0 +1,87 @@
+.site-name,
+.navigation-bar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.site-name {
+  color: rgba(205, 3, 53, 255);
+  font-family: quicksand;
+  font-size: 30px;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.navigation-bar {
+  position: absolute;
+  right: 0;
+  padding-right: 5%;
+  padding-top: 1.2%;
+  margin: 0;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation-bar ul li {
+  float: left
+}
+
+.navigation-bar ul li a {
+  color: rgba(205, 3, 53, 255);
+  font-family: quicksand;
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-decoration: none;
+}
+
+.introduction {
+  height: 500px;
+  position: fixed;
+}
+
+h1 {
+  font-family: quicksand;
+  font-size: 45px;
+  margin-top: 220px;
+  margin-left: 150px;
+}
+
+.intro-details p {
+  font-family: quicksand;
+  font-size: 18px;
+  margin-left: 150px;
+  width: 40%;
+  line-height: 35px;
+}
+
+.singer-button button {
+  position: relative;
+  bottom: -20px;
+  left: 150px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: rgba(205, 3, 53, 255);
+}
+
+.song-art-section {
+  position: relative;
+  right: -620px;
+  top: -480px;
+}
+
+#song-writer {
+  color: black;
+}
+
+#lyrics {
+  color: black;
+}
